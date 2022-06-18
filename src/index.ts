@@ -1,2 +1,2 @@
 import "./style.css";
-import "./components/static";
+import "./components/this";
