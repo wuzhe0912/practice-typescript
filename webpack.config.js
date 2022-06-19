@@ -46,6 +46,9 @@ module.exports = {
   // support tsx ts js
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
+    alias: {
+      "@": path.resolve(__dirname, "src"),
+    },
   },
   // 插件
   plugins: [
@@ -57,6 +60,5 @@ module.exports = {
     }),
     new CompressionPlugin(),
   ],
-
   devtool: "inline-source-map",
 };

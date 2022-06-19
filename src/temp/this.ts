@@ -9,7 +9,8 @@ class CarInfo {
   //   console.log(1, this);
   // }
 
-  // use arrow function 確保 this 永遠指向當前的物件。
+  // use arrow function 確保 this 永遠指向當前的物件，but use arrow function will return function in log, 當 object 變多時產生的 function 也就更多，對記憶體消耗更大。
+  // 一般 function 則會存在共用的原型鏈
   getCar = () => {
     console.log(2, this);
   };
