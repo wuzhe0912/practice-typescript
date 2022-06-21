@@ -1,4 +1,5 @@
 import "./style.css";
+import "@/temp/key-of";
 
 // commonJS
 // const data = require("./modules/commonJS");
@@ -13,5 +14,5 @@ import "./style.css";
 // console.log(1, data);
 // console.log(2, data.playerDamage);
 
-import data, { data3 } from "@/modules/es6Module";
-console.log(3, data, data3);
+// import data, { data3 } from "@/modules/es6Module";
+// console.log(3, data, data3);
