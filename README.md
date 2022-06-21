@@ -1,2 +1,2 @@
-# chat-app-typescript
+# practice typescript
 
